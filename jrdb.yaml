@@ -1,0 +1,28 @@
+# dataset info
+dataset_path: "data/trackerjrdb19/sequences"
+detections_path: "data/detections"
+save_path: "data/dt/data/data"
+
+# JRDB
+tracking_seqs: [2, 7, 11, 16, 17, 25, 26]
+
+# tracking type
+tracking_type: "Pedestrian"
+
+# KF parameters
+state_func_covariance: 100
+measure_func_covariance: 0.001
+prediction_score_decay: 0.03
+LiDAR_scanning_frequency: 10
+
+# max prediction number of state function
+max_prediction_num: 16
+max_prediction_num_for_new_object: 3
+
+input_score: 0
+init_score: 0
+update_score: 0
+post_score: 0.7
+
+# tracking latency (s)
+latency: 0
