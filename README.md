@@ -1,6 +1,6 @@
 # ELPTNet
 
-Official PyTorch implementation of ELPTNet: An Efficient LiDAR-based 3D Pedestrian Tracking Network for Autonomous Navigation Social Robots.
+Official PyTorch implementation of ELPTNet: An Efficient LiDAR-based 3D Pedestrian Tracking Network for Autonomous Navigation Social Robots. [[Paper]](https://doi.org/10.1109/IROS60139.2025.11246019)
 
 ![](images/ELPTNet.jpg)
 
@@ -46,13 +46,13 @@ python tracking_eval/TrackEval/scripts/run_jrdb_3d.py
 ## Citation
 
 ```
-@inproceedings{guang2025ELPTNet,
+@INPROCEEDINGS{guang2025ELPTNet,
   title={ELPTNet: An Efficient LiDAR-based 3D Pedestrian Tracking Network for Autonomous Navigation Social Robots},
-  author={Guang, Jinzheng and Cao, Zhenzhong and Song, Yinuo  and Liu, Jingtai},
+  author={Guang, Jinzheng and Cao, Zhenzhong and Song, Yinuo and Liu, Jingtai},
   booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  pages={1--8},
   year={2025},
-  organization={IEEE}
+  pages={20548-20555},
+  doi={10.1109/IROS60139.2025.11246019}
 }
 ```
 
